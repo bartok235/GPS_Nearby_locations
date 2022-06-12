@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#7ED0F4"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/txtLocationName"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnShowLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Zobacz"
+        android:textSize="11sp"
+        android:textStyle="italic" />
+</LinearLayout>
